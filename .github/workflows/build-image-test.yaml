@@ -20,7 +20,7 @@ jobs:
 
       - name: Get changed Docker related files
         id: changed-files-specific
-        uses: tj-actions/changed-files@d6babd6899969df1a11d14c368283ea4436bca78 # v44.5.2
+        uses: tj-actions/changed-files@48d8f15b2aaa3d255ca5af3eba4870f807ce6b3c # v45.0.2
         with:
           files: |
             Dockerfile
